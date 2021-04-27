@@ -41,5 +41,5 @@ def gen():
 # to view this link from other deices-
 # we need to enable TCP traffic for port 5000
 #  in our local network.
-# Make sure windows firewall is not requesting our request.
+# Make sure windows firewall is not blocking our request.
 app.run(port = 5000, debug=True)
